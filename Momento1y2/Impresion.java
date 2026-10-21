@@ -3,9 +3,9 @@ package Momento1y2;
 
 public class Impresion extends Producto {
     private String color;
-    private foto foto;
+    private Foto []foto;
 
-    public Impresion(int numero, double precio,  String color, foto foto) {
+    public Impresion(int numero, double precio,  String color, Foto []foto) {
         super(numero, precio);
        
         this.color = color;
@@ -20,16 +20,16 @@ public class Impresion extends Producto {
         this.color = color;
     }
 
-    public foto getFoto() {
+    public Foto []getFoto() {
         return foto;
     }
 
-    public void setFoto(foto foto) {
+    public void setFoto(Foto []foto) {
         this.foto = foto;
     }
     @Override
     public String toString() {
-        return "Impresion [color=" + color + ", foto=" + foto + "]";
+        return "Impresion [color=" + color + ", foto=" + java.util.Arrays.toString(foto) + "]";
     }
 }
    

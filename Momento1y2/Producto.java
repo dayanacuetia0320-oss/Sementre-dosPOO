@@ -2,7 +2,7 @@ package Momento1y2;
 
 public class Producto {
     private int numero;
-    private final double precio;
+    private  double precio;
 
     public Producto(int numero, double precio) {
         this.numero = numero;

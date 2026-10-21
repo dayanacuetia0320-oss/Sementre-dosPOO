@@ -1,11 +1,11 @@
 package Momento1y2;
 
-public class foto {
+public class Foto {
 
     private String fichero;
 
 
-    public foto(String fichero) {
+    public Foto(String fichero) {
         this.fichero = fichero;
     }
 
